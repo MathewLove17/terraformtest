@@ -4,16 +4,9 @@ on:
   push:
     branches: [ main ]
 
-env:
-  TF_WORKING_DIR: infra
-
 jobs:
   terraform:
     runs-on: ubuntu-latest
-
-    defaults:
-      run:
-        working-directory: ${{ env.TF_WORKING_DIR }}
 
     steps:
       - name: Checkout repo
