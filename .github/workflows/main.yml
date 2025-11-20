@@ -3,8 +3,6 @@ name: Terraform Azure
 on:
   push:
     branches: [ main ]
-    paths:
-      - 'infra/**'
 
 env:
   TF_WORKING_DIR: infra
