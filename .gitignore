@@ -1,0 +1,11 @@
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# VS Code
+.vscode/
+
+# Archivos sensibles
+*.env
